@@ -12,9 +12,9 @@ from bs4 import BeautifulSoup
 # 				解析速度：lxml>html.parser>html5lib 兼容性则反之
 
 
-def get_html(url):
-	context=requests.get(url)
-	return context.text
+# def get_html(url):
+	# context=requests.get(url)
+	# return context.text
 
 
 def login(url):
